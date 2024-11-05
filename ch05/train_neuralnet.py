@@ -1,6 +1,6 @@
 # coding: utf-8
 import sys, os
-sys.path.append(os.pardir)
+sys.path.append('deep-learning-from-scratch')
 
 import numpy as np
 from dataset.mnist import load_mnist
