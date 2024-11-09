@@ -1,5 +1,9 @@
 # coding: utf-8
 import numpy as np
+
+import sys ,os
+sys.path.append('deep-learning-from-scratch') #新たに追加したコード 親ディレクトリのファイルをimportするための設定
+
 from simple_convnet import SimpleConvNet
 
 network = SimpleConvNet(input_dim=(1,10, 10), 
