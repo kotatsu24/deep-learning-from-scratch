@@ -1,5 +1,9 @@
 # coding: utf-8
 import numpy as np
+
+import sys, os
+sys.path.append('deep-learning-from-scratch')
+
 from common.functions import *
 from common.util import im2col, col2im
 
